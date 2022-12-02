@@ -65,7 +65,7 @@ window.addEventListener("scroll", () =>{
               color: "#fff",
             }}
           >
-            Các sản phẩm sẽ sớm được cập nhật trong thời gian tới
+            Cập nhật sản phẩm
           </span>
         </div>
       </div>
