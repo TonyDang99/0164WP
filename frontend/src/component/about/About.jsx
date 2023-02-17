@@ -44,13 +44,7 @@ const About = () => {
                 Welcome to 0164 W&P
               </span>
               <p>
-                Vì sao lại là 0164? 0164 là thứ tự của chữ t thường trong bảng mã ASCII
-                và bảng ký tự Latin-1. Chữ t đại diện cho Co-Founded Thanh Tùng, và đại diện cho 
-                "tiến tới" và "tiếp tục". 0164 mong muốn đem đến cho những khách hàng tiêu dùng, đặc biệt 
-                là những khách hàng tại Nghệ An, có cơ hội được trải nghiệm các sản phẩm chăm sóc tóc
-                 chất lượng với giá cả hợp lý nhất. Việc lựa chọn chữ t thường cũng bởi thị trường 
-                 chăm sóc tóc ở Việt Nam đã và đang phát triển rất mạnh mẽ nên việc 0164 ra đời là điều
-                 rất thiết yếu ở thời điểm hiện tại. 
+                Vì sao lại là
               </p>
             </div>
           </div>
