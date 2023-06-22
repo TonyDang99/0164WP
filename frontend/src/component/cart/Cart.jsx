@@ -57,8 +57,13 @@ const Cart = ({ history }) => {
         </div>
       ) : (
         <>
+
+          <div className="backProduct">
+          <Link to="/products"><p>Back to Products</p></Link>
+          </div>
           <div className="cartPage">
             <div className="cartHeader">
+              
               <p>Product</p>
               <p>Quantity</p>
               <p>Subtotal</p>

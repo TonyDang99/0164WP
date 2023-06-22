@@ -46,6 +46,26 @@
   .cartHeader > p:last-child {
     text-align: end;
   }
+
+  .backProduct {
+    background-color: #3BB77E;
+    width: 5%;
+    box-sizing: border-box;
+    margin: auto;
+    color: white;
+    display: grid;
+    font: 300 0.7vmax "Roboto";
+    grid-template-columns: 4fr 1fr 1fr;
+    white-space: nowrap; /* Thêm dòng này để ngăn chữ xuống dòng */
+}
+
+.backProduct > p {
+    margin: 10px;
+}
+
+.backProduct > p:last-child {
+    text-align: end;
+}
   
   .cartContainer {
     width: 90%;
