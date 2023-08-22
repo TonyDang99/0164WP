@@ -8,6 +8,10 @@ const path = require("path");
 
 app.use(express.json());
 app.use(cookieParser());
+//date 22/8/2023
+app.use("/", (req, res) => {
+    res.send("Hello world!");
+});
 app.use(bodyParser.urlencoded({extended:true,limit:"300mb"}));
 app.use(express.urlencoded({ limit: "300mb", extended: true }));
 app.use(fileUpload({useTempFiles: true}));
@@ -15,8 +19,9 @@ app.use(fileUpload({useTempFiles: true}));
 // config
 if(process.env.NODE_ENV!=="PRODUCTION"){
     require("dotenv").config({
-        path:"backend/config/.env"
-    })}
+        // path:"backend/config/.env"
+        path:"/config/.env",
+    })};
 
 // Route imports
 const product = require("./routes/ProductRoute");
