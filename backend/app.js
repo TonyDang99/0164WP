@@ -6,6 +6,7 @@ const fileUpload = require("express-fileupload");
 const bodyParser = require("body-parser");
 const path = require("path");
 
+
 app.use(express.json());
 app.use(cookieParser());
 //date 22/8/2023
