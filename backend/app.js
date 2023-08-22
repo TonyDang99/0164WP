@@ -9,9 +9,9 @@ const path = require("path");
 app.use(express.json());
 app.use(cookieParser());
 //date 22/8/2023
-app.use("/", (req, res) => {
+app.use("/test", (req, res) => {
     res.send("Hello world!");
-});
+  });
 app.use(bodyParser.urlencoded({extended:true,limit:"300mb"}));
 app.use(express.urlencoded({ limit: "300mb", extended: true }));
 app.use(fileUpload({useTempFiles: true}));
