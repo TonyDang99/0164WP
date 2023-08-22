@@ -68,7 +68,7 @@ const UserData = ({ user }) => {
     { icon: <ExitToAppIcon />, name: "Logout", func: logoutUser },
   ];
 
-  if (user.role === "admin") {
+  if (user.role === "Admin") {
     options.unshift({
       icon: <DashboardIcon />,
       name: "Dashboard",
