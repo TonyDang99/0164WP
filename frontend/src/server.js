@@ -1,2 +1,2 @@
-export const server = "https://0164-wp.vercel.app/api/v2";
+export const server = "http://localhost:8000/api/v2";
 
