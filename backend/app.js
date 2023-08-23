@@ -15,7 +15,7 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 //date 22/8/2023
-app.get("/", (req, res) => {
+app.get("/test", (req, res) => {
     res.json("Hello world!");
   });
 app.use(bodyParser.urlencoded({extended:true,limit:"300mb"}));
